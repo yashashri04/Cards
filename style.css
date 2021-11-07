@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myNav{
+    height: 3rem;
+    background-color: purple;
+}
+
+.card-container{
+    background-color: rgb(252, 231, 42);
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+
+.card{
+    width: 16rem;
+    margin: auto;
+    
+}
+.card:hover{
+   background-color: rgb(241, 241, 241);
+   cursor: pointer;
+}
+
+.priceBox{
+    width: 150px;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    background-color: rgba(239, 250, 255, 0.986);
+
+}
+.card-text{
+    height: 12rem;
+    font-size: 13.5px;
+    text-align: justify;
+    padding: 3px;
+}
+small{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+   .card{
+    margin-bottom: 20px;
+   }
+}
